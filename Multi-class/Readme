@@ -1,1 +1,7 @@
 
+A novel over-sampling technique, called MDO (Mahalanobis Distance-based Over-sampling technique), is proposed to improve the learning 
+ability of multi-class imbalanced data sets. In other words, the synthetic samples are generated in such a way that they almost preserve
+the same characteristics as the original minority class examples. In the next step, a new hybrid sampling/Boosting approach is proposed. 
+MDOBoost combines both MDO over-sampling technique and AdaBoost.M2 algorithm; which significantly outperform both over-sampling and class decomposition schemes in MAUC, G-mean, and minority class recall.
+
+The code for MDO over-sampling technique is also uploaded. 
